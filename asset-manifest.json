@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lindawebseite/static/css/main.445e41bc.chunk.css",
-    "main.js": "/lindawebseite/static/js/main.d9dcf8f6.chunk.js",
-    "main.js.map": "/lindawebseite/static/js/main.d9dcf8f6.chunk.js.map",
+    "main.css": "/lindawebseite/static/css/main.7502c4aa.chunk.css",
+    "main.js": "/lindawebseite/static/js/main.fdecde1a.chunk.js",
+    "main.js.map": "/lindawebseite/static/js/main.fdecde1a.chunk.js.map",
     "runtime-main.js": "/lindawebseite/static/js/runtime-main.9ea615d1.js",
     "runtime-main.js.map": "/lindawebseite/static/js/runtime-main.9ea615d1.js.map",
-    "static/js/2.94189a42.chunk.js": "/lindawebseite/static/js/2.94189a42.chunk.js",
-    "static/js/2.94189a42.chunk.js.map": "/lindawebseite/static/js/2.94189a42.chunk.js.map",
+    "static/js/2.e02261ed.chunk.js": "/lindawebseite/static/js/2.e02261ed.chunk.js",
+    "static/js/2.e02261ed.chunk.js.map": "/lindawebseite/static/js/2.e02261ed.chunk.js.map",
     "index.html": "/lindawebseite/index.html",
-    "precache-manifest.db9aeefc22ee1c536d3f06567968a127.js": "/lindawebseite/precache-manifest.db9aeefc22ee1c536d3f06567968a127.js",
+    "precache-manifest.f5cc46e2d819f02be9bd530d0539f7bf.js": "/lindawebseite/precache-manifest.f5cc46e2d819f02be9bd530d0539f7bf.js",
     "service-worker.js": "/lindawebseite/service-worker.js",
-    "static/css/main.445e41bc.chunk.css.map": "/lindawebseite/static/css/main.445e41bc.chunk.css.map",
-    "static/js/2.94189a42.chunk.js.LICENSE.txt": "/lindawebseite/static/js/2.94189a42.chunk.js.LICENSE.txt"
+    "static/css/main.7502c4aa.chunk.css.map": "/lindawebseite/static/css/main.7502c4aa.chunk.css.map",
+    "static/js/2.e02261ed.chunk.js.LICENSE.txt": "/lindawebseite/static/js/2.e02261ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9ea615d1.js",
-    "static/js/2.94189a42.chunk.js",
-    "static/css/main.445e41bc.chunk.css",
-    "static/js/main.d9dcf8f6.chunk.js"
+    "static/js/2.e02261ed.chunk.js",
+    "static/css/main.7502c4aa.chunk.css",
+    "static/js/main.fdecde1a.chunk.js"
   ]
 }
