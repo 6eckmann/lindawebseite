@@ -12,7 +12,7 @@ class PhibrowsMicroblading extends Component {
                     <center><h2 className = "a">PhiAcademy empfiehlt Royal Artists <br></br>und garantiert ihnen Qualität und <br></br> Erfahrung</h2></center>        
                     </div>
                     <section>
-                    <img src="/images/phibrowsmicroblading.jpg" alt=""></img>
+                    <img src="./images/phibrowsmicroblading.jpg" alt=""></img>
                     </section>
                 </div>
             </div>

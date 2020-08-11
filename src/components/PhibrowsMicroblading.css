@@ -5,6 +5,6 @@
 }
 
 img{
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
+    background-position: 100% 0;
+    background-size:50%;
 }
