@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./http://6eckmann.github.io/lindawebseite/static/css/main.ca6ba0e4.chunk.css",
-    "main.js": "./http://6eckmann.github.io/lindawebseite/static/js/main.27e8547a.chunk.js",
-    "main.js.map": "./http://6eckmann.github.io/lindawebseite/static/js/main.27e8547a.chunk.js.map",
-    "runtime-main.js": "./http://6eckmann.github.io/lindawebseite/static/js/runtime-main.4eeb4f58.js",
-    "runtime-main.js.map": "./http://6eckmann.github.io/lindawebseite/static/js/runtime-main.4eeb4f58.js.map",
-    "static/js/2.b8e59d34.chunk.js": "./http://6eckmann.github.io/lindawebseite/static/js/2.b8e59d34.chunk.js",
-    "static/js/2.b8e59d34.chunk.js.map": "./http://6eckmann.github.io/lindawebseite/static/js/2.b8e59d34.chunk.js.map",
-    "index.html": "./http://6eckmann.github.io/lindawebseite/index.html",
-    "precache-manifest.af4d74b30c0c855ad840b2b311ff4a8b.js": "./http://6eckmann.github.io/lindawebseite/precache-manifest.af4d74b30c0c855ad840b2b311ff4a8b.js",
-    "service-worker.js": "./http://6eckmann.github.io/lindawebseite/service-worker.js",
-    "static/css/main.ca6ba0e4.chunk.css.map": "./http://6eckmann.github.io/lindawebseite/static/css/main.ca6ba0e4.chunk.css.map",
-    "static/js/2.b8e59d34.chunk.js.LICENSE.txt": "./http://6eckmann.github.io/lindawebseite/static/js/2.b8e59d34.chunk.js.LICENSE.txt"
+    "main.css": "/lindawebseite/static/css/main.445328d0.chunk.css",
+    "main.js": "/lindawebseite/static/js/main.a88679fa.chunk.js",
+    "main.js.map": "/lindawebseite/static/js/main.a88679fa.chunk.js.map",
+    "runtime-main.js": "/lindawebseite/static/js/runtime-main.9ea615d1.js",
+    "runtime-main.js.map": "/lindawebseite/static/js/runtime-main.9ea615d1.js.map",
+    "static/js/2.a19a2631.chunk.js": "/lindawebseite/static/js/2.a19a2631.chunk.js",
+    "static/js/2.a19a2631.chunk.js.map": "/lindawebseite/static/js/2.a19a2631.chunk.js.map",
+    "index.html": "/lindawebseite/index.html",
+    "precache-manifest.6f576eb9fd134e7ea46c4d26008ae078.js": "/lindawebseite/precache-manifest.6f576eb9fd134e7ea46c4d26008ae078.js",
+    "service-worker.js": "/lindawebseite/service-worker.js",
+    "static/css/main.445328d0.chunk.css.map": "/lindawebseite/static/css/main.445328d0.chunk.css.map",
+    "static/js/2.a19a2631.chunk.js.LICENSE.txt": "/lindawebseite/static/js/2.a19a2631.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4eeb4f58.js",
-    "static/js/2.b8e59d34.chunk.js",
-    "static/css/main.ca6ba0e4.chunk.css",
-    "static/js/main.27e8547a.chunk.js"
+    "static/js/runtime-main.9ea615d1.js",
+    "static/js/2.a19a2631.chunk.js",
+    "static/css/main.445328d0.chunk.css",
+    "static/js/main.a88679fa.chunk.js"
   ]
 }
