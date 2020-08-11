@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lindawebseite/static/css/main.380e1ff5.chunk.css",
-    "main.js": "/lindawebseite/static/js/main.718a6415.chunk.js",
-    "main.js.map": "/lindawebseite/static/js/main.718a6415.chunk.js.map",
+    "main.css": "/lindawebseite/static/css/main.445e41bc.chunk.css",
+    "main.js": "/lindawebseite/static/js/main.d9dcf8f6.chunk.js",
+    "main.js.map": "/lindawebseite/static/js/main.d9dcf8f6.chunk.js.map",
     "runtime-main.js": "/lindawebseite/static/js/runtime-main.9ea615d1.js",
     "runtime-main.js.map": "/lindawebseite/static/js/runtime-main.9ea615d1.js.map",
     "static/js/2.94189a42.chunk.js": "/lindawebseite/static/js/2.94189a42.chunk.js",
     "static/js/2.94189a42.chunk.js.map": "/lindawebseite/static/js/2.94189a42.chunk.js.map",
     "index.html": "/lindawebseite/index.html",
-    "precache-manifest.d01d6f281ad2e8176b57c0189d4e2083.js": "/lindawebseite/precache-manifest.d01d6f281ad2e8176b57c0189d4e2083.js",
+    "precache-manifest.db9aeefc22ee1c536d3f06567968a127.js": "/lindawebseite/precache-manifest.db9aeefc22ee1c536d3f06567968a127.js",
     "service-worker.js": "/lindawebseite/service-worker.js",
-    "static/css/main.380e1ff5.chunk.css.map": "/lindawebseite/static/css/main.380e1ff5.chunk.css.map",
+    "static/css/main.445e41bc.chunk.css.map": "/lindawebseite/static/css/main.445e41bc.chunk.css.map",
     "static/js/2.94189a42.chunk.js.LICENSE.txt": "/lindawebseite/static/js/2.94189a42.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9ea615d1.js",
     "static/js/2.94189a42.chunk.js",
-    "static/css/main.380e1ff5.chunk.css",
-    "static/js/main.718a6415.chunk.js"
+    "static/css/main.445e41bc.chunk.css",
+    "static/js/main.d9dcf8f6.chunk.js"
   ]
 }
