@@ -1,0 +1,64 @@
+.firstsection{
+    font-weight: 300;
+    /*font-family: Roboto*/
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.firstsection h1{
+    margin-top: 0;
+}
+
+.phibrowsartist{
+    padding: 60px;
+    font-weight: 300;
+    background-color: rgb(234, 232, 228);
+    text-align: center;
+}
+
+.phibrowsartist h2
+{
+    font-size: 44px;
+    margin: 0px 0px 20px;
+    font-family: Rai;
+}
+.phibrowsartist ul{
+    text-align: left;
+}
+
+.phibrowsueberschrift{
+    font-weight: 300;
+    font-size: 1.8em;
+    
+}
+
+.instaundwhatsapp{
+    padding: 20px;
+    background-color: black;
+    
+}
+
+.greybutton{
+    background-color: rgb(234, 232, 228);
+    border-color: white;
+    border-radius: 4px;
+    color: grey;
+    display: block;
+    padding: 16px 30px;
+    font-weight: 300;
+}
+
+.blackbutton{
+    font-weight: 300;
+    padding: 16px 30px;
+    background-color: black;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    
+}
+
+.instaundwhatsapp div{
+    text-align: center;
+}

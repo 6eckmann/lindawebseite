@@ -1,16 +1,28 @@
 import React, { Component } from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import './Navbar.css'
-import { SocialIcon } from 'react-social-icons'
-import {
-  /*  BrowserView,
-    MobileView,*/
-    isBrowser,
-    isMobile
-  } from "react-device-detect";
+import {slide as Menu} from 'react-burger-menu'
 
 
 class Navbar extends Component {
+
+    constructor (props)
+    {
+        super(props)
+        this.state = {
+            menuOpen: false
+        }
+    }
+
+    // This can be used to close the menu, e.g. when a user clicks a menu item
+  closeMenu () {
+    this.setState({menuOpen: false})
+    console.log("entered")
+  }
+
+  handleStateChange (state) {
+    this.setState({menuOpen: state.isOpen})  
+  }
 
     render(){
         if(window.screen.width >= 1280)
@@ -100,20 +112,38 @@ class Navbar extends Component {
             
             return(
                 <nav className="navbar navbar-expand-lg rounded navbar-fixed-top">
-                 <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 50}}  alt=""></img></a>
-                 <div  id="navbar1" className="collapse navbar-collapse justify-content-md-center">
+                    <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 50}}  alt="bla"></img></a>
+                    <Menu width = { 350 } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
                 
-
-
-                    <ul className = "navbar-nav-right">
-                        <a className ="navbar-nav-right" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"> <img src={'./images/insta.png'} style= {{height: 25}}  alt=""></img></a>
-                    </ul>
-                    <ul className = "navbar-nav-right">
-                    <a className ="navbar-nav-right" href="https://wa.me/+491726931184" target="_blank" rel="noopener noreferrer"> <img src={'./images/whatsapp.png'} style= {{height: 25}}  alt=""></img></a>
-                    </ul>
-                </div>
-                
-            </nav>
+                            <Link to="/lindawebseite" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Home
+                            </Link>
+                            <Link to="/lindawebseite/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            PhiBrows Microblading
+                            </Link>
+                            <Link to="/powderbrows" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Powder Brows
+                            </Link>
+                            <Link to="/browlifting" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Phi Browlifting
+                            </Link>
+                            <Link to="/lindawebseite/faq" className="nav-link" onClick = {() => this.closeMenu()}>
+                            FAQ
+                            </Link>
+                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Referenzen
+                            </Link>
+                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Preise
+                            </Link>
+                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Gutschein
+                            </Link>
+                            <Link to="/lindawebseite/kontakt" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Kontakt
+                            </Link>
+                </Menu>
+              </nav>
             )
         }
        
