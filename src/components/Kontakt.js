@@ -8,7 +8,7 @@ class Kontakt extends Component {
                 <div className = "_37KK">
                 <div className = "_2">
                     <div className = "erreichbar"> 
-                        <h1>So erreichst Du Mich.</h1>
+                        <h1>So erreichst Du Mich</h1>
                         <h2>Ich freue mich auf dich</h2>
                             <div className = "test">
                                 <div className = "inner">    
