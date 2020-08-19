@@ -13,6 +13,7 @@ class PhibrowsMicroblading extends Component {
                     </div>
                     <section>
                     <img src="./images/phibrowsmicroblading.jpg" alt=""></img>
+                    <img src="./images/phibrows2.jpg" alt = ""></img>
                     </section>
                 </div>
             </div>

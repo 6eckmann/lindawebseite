@@ -133,7 +133,7 @@ class Navbar extends Component {
                             <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
                             Referenzen
                             </Link>
-                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/lindawebseite/preise" className="nav-link" onClick = {() => this.closeMenu()}>
                             Preise
                             </Link>
                             <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
