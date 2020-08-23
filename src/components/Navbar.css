@@ -1,16 +1,16 @@
 
 .navbar  {
     background-color: black;
-    height: 80px;
+    height: 100px;
     margin-bottom: 0px;
 }
 
 .navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  
-    display: inline-block;
-    text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -96px !important;  
+  display: inline-block;
+  text-align: center;
 }
 
 .navbar-nav {
@@ -143,14 +143,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
-  margin-top: 0.9em;
-  display: inline-block;
-  color: white;
-    font-size: 1.0em;
-  text-decoration: none;
-  -ms-transition:all .5s ease-in;
-  -webkit-transition:all .5s ease-in;
-  transition:all .5s ease-in;
+margin-top: 0.9em;
+display: inline-block;
+color: white;
+font-size: 1.0em;
+text-decoration: none;
+-ms-transition:all .5s ease-in;
+-webkit-transition:all .5s ease-in;
+transition:all .5s ease-in;
 }
 
 .bm-item:hover{
@@ -161,4 +161,86 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.brand-image{
+width: 182px;
+height: 98px;
+}
+
+._20iPA{
+-webkit-font-smoothing: antialiased;
+line-height: 1.5;
+font-weight: 300;
+font-size: 16px;
+margin: 0;
+padding: 0;
+position: relative;
+width: 100%;
+overflow: hidden;
+padding-bottom: 35.74%;
+}
+
+._2Uqdb{
+-webkit-font-smoothing: antialiased;
+line-height: 1.5;
+font-weight: 300;
+font-size: 16px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+._1{
+-webkit-font-smoothing: antialiased;
+line-height: 1.5;
+font-weight: 300;
+font-size: 16px;
+margin: 0;
+width: 224px;
+max-width: 100%;
+padding: 28px 0;
+transition: width 300ms;
+}
+
+._24{
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  max-width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+._1Vu{
+  -webkit-font-smoothing: antialiased;
+line-height: 1.5;
+font-weight: 300;
+font-family: Roboto,sans-serif;
+font-size: 16px;
+padding: 0;
+display: flex;
+align-items: center;
+min-width: 0;
+margin: 0 20px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 1;
 }

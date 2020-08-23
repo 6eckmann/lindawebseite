@@ -32,7 +32,7 @@ class Navbar extends Component {
                 // navbar navbar-expand-lg navbar-dark primary-color rounded
                // navbar navbar-expand-lg navbar-dark bg-dark rounded
             <nav className="navbar navbar-expand-lg rounded navbar-fixed-top">
-                 <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 50}}  alt=""></img></a>
+                 <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 100}}  alt=""></img></a>
                  <div  id="navbar1" className="collapse navbar-collapse justify-content-md-center">
                     <ul className="navbar-nav">
                         <li className="navbar-nav">
@@ -111,35 +111,37 @@ class Navbar extends Component {
         else{
             
             return(
-                <nav className="navbar navbar-expand-lg rounded navbar-fixed-top">
-                    <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 50}}  alt="bla"></img></a>
+                <nav className="navbar navbar-expand-lg rounded navbar-fixed-top" style={{height : '100px'}}>
+                    <a href="/" class="navbar-brand">
+                        <img className = "brand-image" src={'./images/lindalogo.png'} alt="bla"></img>
+                    </a>
                     <Menu width = { 350 } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
                 
-                            <Link to="/lindawebseite" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/" className="nav-link" onClick = {() => this.closeMenu()}>
                             Home
                             </Link>
-                            <Link to="/lindawebseite/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
-                            PhiBrows Microblading
+                            <Link to="/brows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Brows Microblading
                             </Link>
                             <Link to="/powderbrows" className="nav-link" onClick = {() => this.closeMenu()}>
                             Powder Brows
                             </Link>
                             <Link to="/browlifting" className="nav-link" onClick = {() => this.closeMenu()}>
-                            Phi Browlifting
+                            Browlifting
                             </Link>
-                            <Link to="/lindawebseite/faq" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/faq" className="nav-link" onClick = {() => this.closeMenu()}>
                             FAQ
                             </Link>
-                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
-                            Referenzen
-                            </Link>
-                            <Link to="/lindawebseite/preise" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/preise" className="nav-link" onClick = {() => this.closeMenu()}>
                             Preise
                             </Link>
-                            <Link to="/phibrows-microblading" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/terminbuchen" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Termin buchen
+                            </Link>
+                            <Link to="/gutschein" className="nav-link" onClick = {() => this.closeMenu()}>
                             Gutschein
                             </Link>
-                            <Link to="/lindawebseite/kontakt" className="nav-link" onClick = {() => this.closeMenu()}>
+                            <Link to="/kontakt" className="nav-link" onClick = {() => this.closeMenu()}>
                             Kontakt
                             </Link>
                 </Menu>

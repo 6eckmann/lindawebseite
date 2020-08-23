@@ -11,8 +11,10 @@
 
 .phibrowsartist{
     padding: 60px;
+    padding-bottom: 70px;
     font-weight: 300;
-    background-color: rgb(234, 232, 228);
+    background-color: black;
+   /* background-color: rgb(234, 232, 228);*/
     text-align: center;
 }
 
@@ -62,3 +64,30 @@
 .instaundwhatsapp div{
     text-align: center;
 }
+
+@media only screen and (max-width: 1280px){
+.Slider{
+    margin-left: -28px !important;  
+    height: 200px;
+    width: 300px;
+    
+    
+}
+.awesome{
+    
+}
+}
+
+@media only screen and (min-width: 1281px){
+    .Slider{
+        margin-left: 350px !important;
+      
+    }
+    .awesome{
+        height: 600px;
+        width: 1300px;
+        margin-left: -200px !important; 
+        border: 6px solid #e6e7f0;
+    }
+}
+

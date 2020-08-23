@@ -202,7 +202,6 @@ box-sizing: border-box;
 -webkit-font-smoothing: antialiased;
 line-height: 1.5;
 font-weight: 300;
-font-family: Roboto,sans-serif;
 font-size: 16px;
 word-break: break-word;
 overflow-wrap: break-word;
@@ -211,6 +210,9 @@ padding: 0;
 color: #fff;
 }
 
+.alignright{
+
+}
 .css h3{
     text-align: left;
 }
@@ -284,19 +286,23 @@ padding-bottom: 35.74%;
 }
 
 .Cqj{
--webkit-font-smoothing: antialiased;
-line-height: 1.5;
-font-weight: 300;
-font-size: 16px;
--webkit-user-drag: none;
-margin: 0;
-padding: 0;
-display: flex;
-max-width: 100%;
-height: auto;
-max-height: 100px;
-width: 100%;
+
 }
+
+.Cqj1{
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    width: 100%;
+    }
 
 ._3e3{
 -webkit-font-smoothing: antialiased;
@@ -435,4 +441,14 @@ transition: all 0.2s ease-in 0s;
 
 .style-class{
     width: 200px;
+}
+
+.greybutton{
+    font-weight: 300;
+    padding: 16px 30px;
+    background-color: black;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    display: block;
 }
