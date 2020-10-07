@@ -67,27 +67,43 @@
 
 @media only screen and (max-width: 1280px){
 .Slider{
-    margin-left: -28px !important;  
-    height: 200px;
-    width: 300px;
-    
-    
+    margin-left: -30px !important;  
 }
 .awesome{
-    
+    height: 200px;
+    width: 300px;
+    margin-left: 10px !important; 
+    border: 6px solid #e6e7f0;
 }
+.rechts {
+    
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+    margin-right: -5px;
+    }
 }
 
 @media only screen and (min-width: 1281px){
     .Slider{
-        margin-left: 350px !important;
+        margin-left: 300px !important;
       
     }
     .awesome{
         height: 600px;
         width: 1300px;
-        margin-left: -200px !important; 
+        margin-left: -175px !important; 
         border: 6px solid #e6e7f0;
     }
+    .rechts {
+    
+        margin-left: 0px;
+        width: auto;
+        height: auto;
+        margin-right: -5px;
+        }
 }
 
+.black {
+    color: black;
+}

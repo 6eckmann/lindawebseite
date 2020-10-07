@@ -8,7 +8,7 @@ class Landing extends Component {
     render() {
        
         return (
-            <div>
+            <div className = "black">
                 <div className = "firstsection">
                             <h1 className="text-center">Microblading &amp; More <br></br> Linda Pruß</h1>  
                             <div className = "instaundwhatsapp">
@@ -25,19 +25,21 @@ class Landing extends Component {
                     </form>
                     </div>
                 </div>
+                <img class="rechts" src="./images/text.jpg" width="234" height="60" border="0" alt="Banner"></img>
                 </div>
               <div className = "phibrowsartist">
               <div className = "Slider">
               <AwesomeSlider className = "awesome">
-                <div  data-src="./images/phibrows2.jpg" />
+                <div data-src="./images/phibrows2.jpg" />
                 <div data-src="./images/phibrowsmicroblading.jpg" />
                 </AwesomeSlider>
                 </div>
               </div>
-                <div className = "vorstellung">
-                    Vorestellung
-                </div>
+              
+              
+               
             </div>
+            
 
         )
     }

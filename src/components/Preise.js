@@ -47,7 +47,7 @@ class Preise extends Component {
                                     <div class="Te">
                                         <div class="css">
                                             <div >
-                                                <h3><strong>349€</strong></h3>
+                                                <h3><strong>259€ &middot; 2 Stunden 45 Minuten</strong></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ class Preise extends Component {
                                     <div class="Te">
                                         <div class="css">
                                             <div>
-                                                <h3>Powder Brows</h3>
+                                                <h3>Henna Brows</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -86,7 +86,7 @@ class Preise extends Component {
                                     <div class="Te">
                                         <div class="css">
                                             <div>
-                                                <h3><strong>349€</strong></h3>
+                                                <h3><strong>29€ &middot; 30 Minuten</strong></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ class Preise extends Component {
                                     <div class="Te">
                                         <div class="css">
                                             <div>
-                                                <h3>Browlifting</h3>
+                                                <h3>Brow Waxing inkl. Färben</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@ class Preise extends Component {
                                     <div class="Te">
                                         <div class="css">
                                             <div>
-                                                <h3><strong>349€</strong></h3>
+                                                <h3><strong>34€ &middot; 30 Minuten</strong></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -140,6 +140,185 @@ class Preise extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="yjT">
+                            <div class="_38y">
+                                <div class="U57">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3>Gesicht Waxing</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3><strong>Ab 15€ &middot; 15 Minuten</strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="cssd">
+                                            <div className="alignright">
+                                                <Link to="/terminbuchen">
+                                                    <button className = "greybutton" type = "submit">
+                                                        Termin vereinbaren
+                                                    </button>  
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="yjT">
+                            <div class="_38y">
+                                <div class="U57">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3>Brow Lifting inkl. Färben</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3><strong>49€ &middot; 45 Minuten</strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="cssd">
+                                            <div className="alignright">
+                                                <Link to="/terminbuchen">
+                                                    <button className = "greybutton" type = "submit">
+                                                        Termin vereinbaren
+                                                    </button>  
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="yjT">
+                            <div class="_38y">
+                                <div class="U57">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3>Wimpern Lifting inkl. Färben</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3><strong>59€ &middot; 1 Stunde 15 Minuten</strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="cssd">
+                                            <div className="alignright">
+                                                <Link to="/terminbuchen">
+                                                    <button className = "greybutton" type = "submit">
+                                                        Termin vereinbaren
+                                                    </button>  
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="yjT">
+                            <div class="_38y">
+                                <div class="U57">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3>Wimpern Lifting</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3><strong>49€ &middot; 1 Stunde</strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="cssd">
+                                            <div className="alignright">
+                                                <Link to="/terminbuchen">
+                                                    <button className = "greybutton" type = "submit">
+                                                        Termin vereinbaren
+                                                    </button>  
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="yjT">
+                            <div class="_38y">
+                                <div class="U57">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3>Brow Lifting</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="css">
+                                            <div>
+                                                <h3><strong>39€ &middot; 30 Minuten</strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="U570_">
+                                    <div class="Te">
+                                        <div class="cssd">
+                                            <div className="alignright">
+                                                <Link to="/terminbuchen">
+                                                    <button className = "greybutton" type = "submit">
+                                                        Termin vereinbaren
+                                                    </button>  
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                         </div>
                         </div>

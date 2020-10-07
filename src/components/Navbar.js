@@ -32,19 +32,19 @@ class Navbar extends Component {
                 // navbar navbar-expand-lg navbar-dark primary-color rounded
                // navbar navbar-expand-lg navbar-dark bg-dark rounded
             <nav className="navbar navbar-expand-lg rounded navbar-fixed-top">
-                 <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 100}}  alt=""></img></a>
+                 <a className ="navbar-brand" href="/impressum" > <img src={'./images/lindalogo.png'} style= {{height: 300}}  alt=""></img></a>
                  <div  id="navbar1" className="collapse navbar-collapse justify-content-md-center">
                     <ul className="navbar-nav">
                         <li className="navbar-nav">
-                            <Link to="/home" className="nav-link">
+                            <Link to="/" className="nav-link">
                             Home
                             </Link>
                         </li>
                     </ul>
                     <ul className="navbar-nav">
                         <li className="navbar-nav">
-                            <Link to="/phibrows-microblading" className="nav-link">
-                            PhiBrows Microblading
+                            <Link to="/brows-microblading" className="nav-link">
+                            Brows Microblading
                             </Link>
                         </li>
                     </ul>
@@ -58,7 +58,7 @@ class Navbar extends Component {
                     <ul className="navbar-nav">
                         <li className="navbar-nav">
                             <Link to="/browlifting" className="nav-link">
-                            Phi Browlifting
+                            Browlifting
                             </Link>
                         </li>
                     </ul>
@@ -66,17 +66,9 @@ class Navbar extends Component {
   <button class="dropbtn">Mehr</button>
   <div class="dropdown-content">
   <li className="navbar-nav">
-                            <Link to="/phi-lashlifting" className="nav-link">
-                            Phi Lashlifting
-                            </Link>
-                        </li>
+                           
                         <li className="navbar-nav">
-                            <Link to="/phicontour-permanent-makeup" className="nav-link">
-                            PhiContour Permanent Makeup
-                            </Link>
-                        </li>
-                        <li className="navbar-nav">
-                            <Link to="/FAQ" className="nav-link">
+                            <Link to="/faq" className="nav-link">
                             FAQ
                             </Link>
                         </li>
@@ -95,6 +87,10 @@ class Navbar extends Component {
                             Kontakt
                             </Link>
                         </li>
+                        <Link to="/beauty-party" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Beauty Party
+                            </Link>
+                        </li>
   </div>
 </div>
                     <ul className = "navbar-nav-right">
@@ -111,7 +107,7 @@ class Navbar extends Component {
         else{
             
             return(
-                <nav className="navbar navbar-expand-lg rounded navbar-fixed-top" style={{height : '100px'}}>
+                <nav className="navbar navbar-expand-lg rounded navbar-fixed-top">
                     <a href="/" class="navbar-brand">
                         <img className = "brand-image" src={'./images/lindalogo.png'} alt="bla"></img>
                     </a>
@@ -128,6 +124,9 @@ class Navbar extends Component {
                             </Link>
                             <Link to="/browlifting" className="nav-link" onClick = {() => this.closeMenu()}>
                             Browlifting
+                            </Link>
+                            <Link to="/beauty-party" className="nav-link" onClick = {() => this.closeMenu()}>
+                            Beauty Party
                             </Link>
                             <Link to="/faq" className="nav-link" onClick = {() => this.closeMenu()}>
                             FAQ

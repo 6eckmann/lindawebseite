@@ -5,7 +5,10 @@ class Kontakt extends Component {
     render(){
         return(
             <div>
-                <div className = "_37KK">
+                <div className = "_37KK" > 
+                <div className = "_2b">
+                <img className = "imageback" src = './images/kontaktMe.jpg' alt =""></img>
+                </div>
                 <div className = "_2">
                     <div className = "erreichbar"> 
                         <h1>So erreichst Du Mich</h1>
